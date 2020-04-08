@@ -1,96 +1,111 @@
-
 <!DOCTYPE html>
-<html >
+<html lang="en">
 <head>
+   <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="css/style.css">
    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
-   <title>Sierra Portfolio</title>
+   <title>Sierra's Portfolio</title>
 </head>
 <body>
-    <!-- Header Section -->
 
-    <main class="portfolio" id="portfolio-section">
+   <!-- Header section -->
 
-        <h2>Portfolio</h2>
-  
-        <div class="wrapper">
-  
-        <section class="marketing col">
-           <img class="marketing-image" src="images/portfolio-1.png" alt="marketing-site">
-           <h3>Marketing Page</h3>
-           <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
-        </section>
-  
-        <section class="search col">
-           <img class="search-image" src="images/portfolio-2.png" alt="search-page">
-           <h3>Search Page</h3>
-           <p>This project searches through a specific database to find information that the user is trying to look up.</p>
-        </section>
-  
-        <section class="travel col">
-           <img class="travel-image" src="images/portfolio-3.png" alt="travel">
-           <h3>Travel App</h3>
-           <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
-        </section>
-  
-        <section class="map col">
-           <img class="map-image " src="images/portfolio-4.png" alt="map">
-           <h3>Map of Favorite Spots</h3>
-           <p>This project uses mapping API's to plot points of my favorite spots in the city for a do-it-yourself walking tour.</p>
-        </section>
-  
-        <section class="photo-gallery col">
-           <img class="photo-image" src="images/portfolio-5.png" alt="photo-gallery">
-           <h3>Photo Gallery</h3>
-           <p>This project shows pictures from a recent trip to the viewer and allows the, to easily navigate through the photos.</p>
-        </section>
-  
-        <section class="Calculator col">
-           <img class="calculator-image" src="images/portfolio-6.png" alt="calculator">
-           <h3>Calculator</h3>
-           <p>Someone can enter in the numbers they want, and press the big blue button to get the result.</p>
-        </section>
-  
-        </div>
-  
-     </main>
-    
+   <div class="header" id="top">
 
-<!-- Portfolio section -->
+      <div class="main-header">
+         <div class="header-nav">
+            <h1 class="name">Sierra</h1>
+               <nav class="nav-main">
+                   <ul>
+                     <li><a href="#top">Home</a></li>
+                     <li><a href="#portfolio-section">Portfolio</a></li>
+                     <li><a href="#contact-section">Contact</a></li>
+                   </ul>
+               </nav>
+         </div>
+          <section class="main-info clearfix">
+             <img class="profile" src="images/responsive-layout-profile.png" alt="student-photo">
+             <p>Hi! I'm a <span class="color-text">front-end developer</span> who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put my skills to use!</p>
+          </section>
+      </div>
+   </div>
+
+   <!-- Portfolio section -->
+
+   <main class="portfolio" id="portfolio-section">
+
+      <h2>Portfolio</h2>
+
+      <div class="wrapper">
+
+      <section class="marketing col">
+         <img class="marketing-image" src="images/portfolio-1.png" alt="marketing-site">
+         <h3>Marketing Page</h3>
+         <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+      </section>
+
+      <section class="search col">
+         <img class="search-image" src="images/portfolio-2.png" alt="search-page">
+         <h3>Search Page</h3>
+         <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+      </section>
+
+      <section class="travel col">
+         <img class="travel-image" src="images/portfolio-3.png" alt="plane">
+         <h3>Travel App</h3>
+         <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+      </section>
+
+      <section class="map col">
+         <img class="map-image " src="images/portfolio-4.png" alt="map">
+         <h3>Map of Favorite Spots</h3>
+         <p>This project uses mapping API's to plot points of my favorite spots in the city for a do-it-yourself walking tour.</p>
+      </section>
+
+      <section class="photo-gallery col">
+         <img class="photo-image" src="images/portfolio-5.png" alt="photo-gallery">
+         <h3>Photo Gallery</h3>
+         <p>This project shows pictures from a recent trip to the viewer and allows the, to easily navigate through the photos.</p>
+      </section>
+
+      <section class="Calculator col">
+         <img class="calculator-image" src="images/portfolio-6.png" alt="calculator">
+         <h3>Calculator</h3>
+         <p>Someone can enter in the numbers they want, and press the big blue button to get the result.</p>
+      </section>
+
+      </div>
+
+   </main>
+
+   <!-- Main footer -->
+
+   <footer class="main-footer" id="contact-section">
+      <h3>Contact</h3>
+      <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+      <p>Phone <span>+1 (111) 555-1234</span></p>
+      <p>Email <span>email@yoursite.com</span></p>
+   </footer>
+
+   <!-- Secondary footer with nav on large screen -->
+
+   <footer class="secondary-nav clearfix">
+
+      <div class="wrapper-secondary">
+
+      <h1 class="name secondary-name">Student name</h1>
+
+      <nav class="nav-secondary">
+             <ul>
+                <li><a href="#top">Home</a></li>
+                <li><a href="#portfolio-section">Portfolio</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+             </ul>
+          </nav>
+      </div>
+      <a href="#top" class="arrow">Back to top</a>
+   </footer>
    
-            <h2>Portfolio</h2>
-            <div class="wrapper">
-                <img class="market-img"> <img src="images/portfolio-1.png" alt="marketing-site">
-                <h3>Marketing Page</h3>
-                <p>This Project shows the front page of a marketing website meant for a specific business I'm inerested in.</p>
-
-                <img class="search-img" src="images/portfolio-2.png" alt="page-search">
-                <h3>Search Page</h3>
-                <p>This project searches through a specific database to find information that the user is trying to look up.</p>
-
-                <img class="travel-img" src="images/portfolio-3.png" alt="transportion">
-                <h3>Travel App</h3>
-                <p>This projct compares travel times based on different transportion methods and tells you the best one.</p>
-
-                <img class="map-img" src="images/portfolio-4.png" alt="map">
-                <h3>Map of Favorite Spots</h3>
-                <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
-
-                <img class="gallery-img" src="images/portfolio-5.png" alt="photo-gallery">
-                <h3>Photo Gallery</h3>
-                <p>This porject shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
-
-                <img class="calculator-img" src="images/portfolio-6.png" alt="calculator">
-                <h3>Calculator</h3>
-                <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
-
-            </div>
-	<div class="container clearfix">
-	</div>
-
-	<footer class="main-footer">
-	</footer>
-	
 </body>
 </html>
