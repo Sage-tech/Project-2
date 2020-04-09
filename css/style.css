@@ -12,7 +12,7 @@ body {
 /* Header section */
 
 .header {
-   background: rgb(248, 241, 241);
+   background: #abcecc;
    margin: auto;
    width: 100%;
 }
@@ -56,7 +56,7 @@ body {
 }
 
 .color-text {
-   color: rgb(33, 168, 212);
+   color: rgb(196, 111, 14);
    text-decoration: underline;
 }
 /* Profile section */
@@ -109,7 +109,7 @@ body {
 /* Footer */
 
 .main-footer, .main-footer h3 {
-   background: rgb(248, 241, 241);
+   background: #abcecc;
    margin: auto;
    padding: 2em;
    width: 100%;
@@ -118,7 +118,7 @@ body {
 }
 
 .main-footer p {
-   background: rgb(248, 241, 241);
+   background: #abcecc;
    margin: auto;
    padding-bottom: 1.5em;
    width: 90%;
@@ -134,7 +134,7 @@ body {
 
 
 .secondary-nav {
-   background: rgb(248, 241, 241);
+   background: #abcecc;
    margin: auto;
    width: 100%;
    border-top: solid lightgrey 1px;
@@ -189,7 +189,7 @@ body {
 
 .nav-main li {
    display: inline;
-   background: rgb(248, 241, 241);
+   background: #abcecc;
    list-style: none;
    padding: 1em;
 }
