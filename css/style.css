@@ -199,7 +199,7 @@ body {
 }
 
 .nav-main li a:hover {
-   color: lightblue;
+   color: rgb(196, 111, 14);
 }
 .profile {
    float: right;
@@ -256,10 +256,11 @@ body {
 }
 
 .secondary-name {
-   margin-left: -6em;
+   margin-left: -5em;
 }
 
 }
+/* Media Queries for Desktop */
 
 @media (min-width: 1024px) {
 
@@ -295,7 +296,7 @@ body {
 }
 
 .nav-main li a:hover {
-   color: lightblue;
+   color: rgb(196, 111, 14);
 }
 
 
